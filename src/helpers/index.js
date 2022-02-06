@@ -4,8 +4,6 @@ import fileImg from '../img/file-logo.png'
 
 export const nameSize = (name) => name.length > 10 ? `${name.slice(0,8)}...` : name
 
-console.log(jpgImg);
-
 export const uid = () => Math.random().toString(36).slice(2,9)
 
 export const imgVariant = (name) => {
