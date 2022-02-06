@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react'
+import React, { useEffect, useState } from 'react'
 import './App.css';
 import  DesktopElements  from './components/DesktopElements';
 import { Loading } from './components/Loading';
@@ -7,7 +7,7 @@ function App() {
 
   const [data, setData] = useState(null)
   const [isLoading, setIsLoading] = useState(true)
-  const [directoryId, setDirectoryId] = useState('/')
+  const [directoryId, setDirectoryId] = useState('')
 
   useEffect(()=>{
       const fetchData = async() => {

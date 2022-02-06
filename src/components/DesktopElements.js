@@ -21,7 +21,7 @@ const DesktopElements = ({data, setDirectoryId}) => {
   return (
    <div className='container'>
       <div className='breadcrumbs-wrapper'>
-      {breadCrumbs.map((dir)=><div className='breadcrumbs' onClick={()=>navigateBreakpoint(dir)} key={dir.id}>{dir.name}</div>)}
+        {breadCrumbs.map((dir)=><div className='breadcrumbs' onClick={()=>navigateBreakpoint(dir)} key={dir.id}>{dir.name}</div>)}
       </div>
       <div className='card-wrapper'>
         {data.directories.map(dir=>(
