@@ -1,6 +1,6 @@
-import jpgImg from '../img/image-logo.png'
-import folderImg from '../img/folder-logo.png'
-import fileImg from '../img/file-logo.png'
+import jpgImg from '../img/image-icon.png'
+import folderImg from '../img/folder-icon.png'
+import fileImg from '../img/file-icon.png'
 
 export const nameSize = (name) => name.length > 10 ? `${name.slice(0,8)}...` : name
 
