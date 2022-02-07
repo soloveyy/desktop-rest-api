@@ -6,14 +6,20 @@ Simple desktop rest api app created in React.js
 * All functions and components were written in javascript with pure css without using third-party libraries.
 
 ## Link
-* Project link in Heroku: https://desktop--react-rest-api.herokuapp.com/
+* Project link to Heroku: https://desktop--react-rest-api.herokuapp.com/
 * Icons downloaded from: https://fonts.google.com/icons?selected=Material+Icons
 
 ## Setup
-To run this project, install it locally using npm:
+To run this project, install it locally using npm or yarn:
 
 ```
 $ cd ../desktop-rest-api
 $ npm install
 $ npm start
+```
+or
+```
+$ cd ../desktop-rest-api
+$ yarn install
+$ yarn start
 ```
