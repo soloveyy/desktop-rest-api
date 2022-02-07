@@ -15,13 +15,3 @@ export const imgVariant = (name) => {
   } 
   return fileImg
 }
-
-export const imgAlt = (name) => {
-    if (name.slice(-3) === 'jpg') {
-        return "Image"
-    }
-    else if (name.slice(0,3) === 'dir') {
-        return "Folder"
-    } 
-    return "File"
-} 

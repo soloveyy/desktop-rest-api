@@ -4,7 +4,6 @@ import  DesktopElements  from './components/DesktopElements';
 import { Loading } from './components/Loading';
 
 function App() {
-
   const [data, setData] = useState(null)
   const [isLoading, setIsLoading] = useState(true)
   const [directoryId, setDirectoryId] = useState('')
@@ -22,7 +21,10 @@ function App() {
   return (
     <div className='App'>
       {isLoading ? <Loading/> : 
-        <DesktopElements data={data} setDirectoryId={setDirectoryId}/>
+        <DesktopElements 
+          data={data} 
+          setDirectoryId={setDirectoryId}
+        />
       }
     </div>
   )
