@@ -22,6 +22,8 @@ const DesktopElements = ({data, setDirectoryId}) => {
       addBreadcrumb(dirId, dirName)
   }
 
+  console.log('test log');
+
   return (
    <div className='container'>
       <div className='breadcrumbs-wrapper'>
